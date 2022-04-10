@@ -55,4 +55,5 @@
 (package! web-mode)
 (package! evil-nerd-commenter)
 (package! request)
-(package! telega :recipe (:local-repo "~/telega.el"))
+(package! telega)
+(package! web-server)
