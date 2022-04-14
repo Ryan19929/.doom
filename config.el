@@ -97,8 +97,6 @@
 (setq lsp-gopls-staticcheck t)
 (setq lsp-eldoc-render-all t)
 (setq lsp-gopls-complete-unimported t)
-(add-hook 'prog-mode-hook #'wucuo-start)
-(add-hook 'text-mode-hook #'wucuo-start)
 (use-package lsp-mode
   :ensure t
   :commands (lsp lsp-deferred)
