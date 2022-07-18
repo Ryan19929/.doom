@@ -144,9 +144,9 @@
 (setq doom-themes-neotree-file-icons t)
 
 ;; bdword 翻译函数
-(setq appid "20220217001085792")
+(setq appid "")
 (setq salt "1435660288")
-(setq key_bd "wDZMfhzrxlAqUrZuI4JL")
+(setq key_bd "")
 (require 'json)
 (setq conbime_sign (concat appid "apple" salt key_bd))
 (setq sign (md5 conbime_sign nil nil 'binary))
